@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>فيض ا</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dceeef;
+      margin: 0;
+      padding: 0;
+      color: #003366;
+    }
+    header, footer {
+      background-color: #a6c8e0;
+      padding: 10px 20px;
+    }
+    nav {
+      background-color: #c1d9f0;
+      padding: 10px 20px;
+      display: flex;
+      gap: 15px;
+      justify-content: flex-start;
+      direction: rtl;
+    }
+    nav a {
+      color: #073763;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .title-section {
+      background-color: #e3f0ff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .title-section h1 {
+      color: #06436b;
+      margin: 0 0 10px 0;
+    }
+    .title-section p {
+      margin: 0;
+      font-size: 14px;
+      color: #0c426f;
+    }
+    .announcement {
+      background-color: #0b3e6f;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .button-row, .button-row-secondary {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    a.btn-link {
+      background-color: #2580e3;
+      border-radius: 6px;
+      padding: 12px 20px;
+      font-size: 14px;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 120px;
+      justify-content: center;
+      text-decoration: none;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    a.btn-link:hover {
+      background-color: #1664bf;
+    }
+    .icon {
+      width: 18px;
+      height: 18px;
+      background-color: rgb(248, 248, 248);
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      display: inline-block;
+    }
+    .icon-transport {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 9l1-2h16l1 2v7a3 3 0 11-6 0H9a3 3 0 11-6 0V9z"/></svg>');
+    }
+    .icon-store {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 11h18v6H3z"/></svg>');
+    }
+    .icon-health {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v10M7 12h10"/></svg>');
+    }
+    .icon-services {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/></svg>');
+    }
+    .icon-freelance {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14"/></svg>');
+    }
+    .icon-institutions {
+      mask-image: url('data:image/svg+xml;utf8,<svg fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16v16H4z"/></svg>');
+    }
+    footer {
+      font-size: 12px;
+      text-align: center;
+      color: #1d1d1d;
+      background-color: #bfd3e6;
+      padding: 15px 20px;
+      direction: rtl;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">الصفحة الرئيسية</a>
+      <a href="#">معلومات</a>
+      <a href="#">عن التطبيق</a>
+    </nav>
+  </header>
+
+  <section class="title-section">
+    <h1>الجلفة كوم</h1>
+    <p>الموقع الأول لمدينة الجلفة</p>
+  </section>
+
+  <section class="announcement">
+    <p>( إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا ) .</p>
+  </section>
+
+  <section class="button-row">
+    <a href="transport.html" class="btn-link"><span class="icon icon-transport"></span>النقل</a>
+    <a href="stores.html" class="btn-link"><span class="icon icon-store"></span>المحلات</a>
+    <a href="health.html" class="btn-link"><span class="icon icon-health"></span>الصحة</a>
+    <a href="services.html" class="btn-link"><span class="icon icon-services"></span>الخدمات</a>
+    <a href="freelance.html" class="btn-link"><span class="icon icon-freelance"></span>مهن حرة</a>
+    <a href="institution.html" class="btn-link"><span class="icon icon-institutions"></span>المؤسسات</a>
+  </section>
+
+  <section class="button-row-secondary">
+    <a href="sooon.html" class="btn-link">مواقيت الصلاة</a>
+    <a href="sooon.html" class="btn-link">أذكار الصباح والمساء</a>   
+    <a href="sooon.html" class="btn-link">حول مدينة الجلفة</a>
+    <a href="sooon.html" class="btn-link">أضف خدمتك لتطبيق الجلفة</a>
+  </section>
+
+  <footer>
+    <p>يمكنك الاتصال بمطور موقع الجلفة كوم في أي وقت إذا كان لديك استفسارات أو شكاوي وسيتم الرد عليكم في أقرب وقت ممكن</p>
+    <p>من نحن | تواصل معنا | لائحة الاستخدام | سياسة الخصوصية</p>
+  </footer>
+
+</body>
+</html>
